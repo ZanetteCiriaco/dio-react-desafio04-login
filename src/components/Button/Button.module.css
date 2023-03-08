@@ -7,7 +7,14 @@
     border-radius: 21px;
 }
 
-.buttonContainer :hover {
+.buttonContainer:hover {
     opacity: 0.6;
     cursor:pointer;
+}
+
+.buttonContainer:disabled {
+    border: 1px solid gray;
+    background-color: lightslategray;
+    opacity: 0.6;
+    cursor: not-allowed;
 }

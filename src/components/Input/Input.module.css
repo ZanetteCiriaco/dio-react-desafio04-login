@@ -16,3 +16,10 @@
     border: 0;
     outline: none;
 }
+
+.errorMessage {
+    color: red;
+    font-size:12px;
+    margin-top: 2px;
+    margin-left:10px;
+}
